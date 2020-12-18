@@ -10,5 +10,5 @@ class ExpenseReport extends Model
     use HasFactory;
 
 
-    
+
 }
