@@ -19,18 +19,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55250a6d-00ab-44ca-8fda-fb24ad71ee9b" name="Default Changelist" comment="" />
+    <list default="true" id="55250a6d-00ab-44ca-8fda-fb24ad71ee9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Mail/SummaryReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/expenseReport.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/curso-laravel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/curso-laravel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ExpenseReportController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ExpenseReportController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/expenseReport/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/expenseReport/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/expenseReport/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/expenseReport/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -140,6 +159,7 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
     </include_path>
   </component>
   <component name="ProjectId" id="1lqGx2kjPnWP4YVATql7Y4vKqAR" />
@@ -150,9 +170,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/expenseReport" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/expenseReport" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/expenseReport" />
+      <recent name="$PROJECT_DIR$/resources/views/expense" />
+      <recent name="$PROJECT_DIR$/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -168,7 +198,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608317451215</updated>
-      <workItem from="1608317452416" duration="555000" />
+      <workItem from="1608317452416" duration="9220000" />
+      <workItem from="1608560943461" duration="485000" />
+      <workItem from="1608612227525" duration="2792000" />
+      <workItem from="1608734897888" duration="6115000" />
+      <workItem from="1608742211984" duration="9878000" />
+      <workItem from="1608818957831" duration="1073000" />
+      <workItem from="1609166678158" duration="6602000" />
+      <workItem from="1609775362820" duration="4372000" />
     </task>
     <servers />
   </component>
@@ -185,5 +222,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="3455" y="633" key="NewPhpFileDialog" timestamp="1609171056329">
+      <screen x="1792" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1164" y="470" key="NewPhpFileDialog/0.25.1792.1036@0.25.1792.1036" timestamp="1608612705296" />
+    <state x="3455" y="633" key="NewPhpFileDialog/1792.25.2560.1415/0.25.1792.1021@1792.25.2560.1415" timestamp="1609171056329" />
+    <state x="2225" y="439" key="RollbackChangesDialog" timestamp="1608740224176">
+      <screen x="1792" y="25" width="2560" height="1415" />
+    </state>
+    <state x="2225" y="439" key="RollbackChangesDialog/1792.25.2560.1415/0.25.1792.1021@1792.25.2560.1415" timestamp="1608740224176" />
+    <state x="2131" y="365" width="602" height="735" key="find.popup" timestamp="1608742817103">
+      <screen x="1792" y="25" width="2560" height="1415" />
+    </state>
+    <state x="2131" y="365" width="602" height="735" key="find.popup/1792.25.2560.1415/0.25.1792.1021@1792.25.2560.1415" timestamp="1608742817103" />
+    <state x="3233" y="339" width="958" height="924" key="search.everywhere.popup" timestamp="1609173379094">
+      <screen x="1792" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1009" y="255" width="670" height="676" key="search.everywhere.popup/0.25.1792.1036@0.25.1792.1036" timestamp="1608614945742" />
+    <state x="3233" y="339" width="958" height="924" key="search.everywhere.popup/1792.25.2560.1415/0.25.1792.1023@1792.25.2560.1415" timestamp="1609173379094" />
   </component>
 </project>

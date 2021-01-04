@@ -30,3 +30,11 @@ Route::get('/expense_reports/{expense_report}/expenses/create', [ExpenseControll
 Route::post('/expense_reports/{expense_report}/expenses', [ExpenseController::class, 'store']);
 
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
